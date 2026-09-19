@@ -42,7 +42,46 @@ const projects = {
     architecture: "The project uses Repository Pattern and Unit of Work to organize data access and keep application responsibilities separated.",
     database: "SQL Server integrated through Entity Framework Core for reservations, rooms, invoices, payments, and related entities.",
     github: "https://github.com/Momen054/HotelManagement"
-  }
+  },
+  book: {
+
+    title: "Book Management System",
+
+    overview: "A book management backend system for managing books, authors, categories, publishers, borrowings, reservations, reviews, and fines.",
+
+    features: [
+        "Book management",
+        "Author management",
+        "Category management",
+        "Publisher management",
+        "Borrowing management",
+        "Reservations",
+        "Reviews",
+        "Fine management",
+        "Role-based authorization"
+    ],
+
+    tech: [
+        "C#",
+        "ASP.NET Core",
+        "Entity Framework Core",
+        "SQL Server",
+        "REST API",
+        "ASP.NET Core Identity",
+        "JWT Authentication",
+        "AutoMapper",
+        "FluentValidation",
+        "Repository Pattern",
+        "Unit of Work"
+    ],
+
+    architecture: "The project follows Clean Architecture with Repository Pattern and Unit of Work to separate application responsibilities and organize data access.",
+
+    database: "SQL Server integrated through Entity Framework Core for books, authors, categories, publishers, borrowings, reservations, reviews, and fines.",
+
+    github: "https://github.com/Momen054/BookManagement"
+
+}
 };
 
 const modal = document.querySelector("#project-modal");
