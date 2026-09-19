@@ -51,12 +51,7 @@ body:before{
 .footer{border-top:1px solid var(--border);padding:26px 0;color:var(--muted);font-size:.78rem}.footer-inner{display:flex;justify-content:space-between}.footer-inner div{display:flex;gap:20px}.footer a:hover{color:var(--accent)}
 .modal{display:none;position:fixed;inset:0;z-index:200;padding:30px;overflow:auto}.modal.open{display:grid;place-items:center}.modal-backdrop{position:fixed;inset:0;background:rgba(2,5,10,.82);backdrop-filter:blur(7px)}.modal-content{position:relative;width:min(850px,100%);max-height:90vh;overflow:auto;background:#0b1220;border:1px solid var(--border);border-radius:20px;padding:38px;box-shadow:var(--shadow);z-index:1}.modal-close{position:absolute;right:18px;top:13px;background:none;border:0;color:var(--muted);font-size:2rem;cursor:pointer}.modal-content>p:not(.eyebrow){color:var(--muted);margin:12px 0 25px}.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.modal-grid h3{font-size:.85rem;margin-bottom:12px;color:var(--accent)}.modal-grid p,.modal-grid li{color:var(--muted);font-size:.85rem}.modal-grid ul{list-style:none;display:grid;gap:7px}.modal-grid li:before{content:"•";color:var(--accent);margin-right:8px}.modal-actions{margin-top:30px}
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
-```css
-/* =========================
-   RESPONSIVE ONLY
-========================= */
 
-/* Tablet */
 @media (max-width: 950px) {
 
   .nav-menu {
@@ -346,4 +341,4 @@ body:before{
     transition: none;
   }
 }
-```
+
